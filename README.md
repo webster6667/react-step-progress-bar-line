@@ -4,7 +4,7 @@
 
 # react-step-progress-bar-line
 
-> functions for working with date
+> progress bar with delimited sections
 
 [![npm version](https://badge.fury.io/js/react-step-progress-bar-line.svg)](https://www.npmjs.com/package/react-step-progress-bar-line)
 
