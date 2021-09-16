@@ -17,6 +17,13 @@ npm i react-step-progress-bar-line
 import component styles to main scss style
 ```scss
 @import "~react-line-progress-bar/dist/style/index.css";
+
+
+//add your animation setting for line move
+.progress-bar__line {
+  transition: transform 0.5s 0s ease;
+}
+
 ```
 
 ```typescript jsx
