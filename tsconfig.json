@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+
+    "sourceMap": true,
+
+    "jsx": "preserve",
+    "allowJs": true,
+    "noImplicitAny": false,
+
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": false,
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "custom.d.ts",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules/",
+    "lib",
+    "es"
+  ]
+}

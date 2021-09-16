@@ -1,0 +1,10 @@
+@import "~scss-coding-helpers";
+
+.react-step-progress-bar-line {
+  display: flex;
+
+  & > * {
+    flex-grow: 1;
+  }
+
+}
